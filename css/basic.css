@@ -1,0 +1,28 @@
+html,body,head,div,span,p,header,nav,section,article,aside,footer,
+h1,h2,h3,h4,h5,h6,hr,ol,ul,li,a,img,iframe,table,thead,tbody,tfoot
+,tr,th,td,form,input,button,select,textarea,br { 
+    margin :0px;
+    padding : 0px;
+    font-size: 100%;
+
+}
+body{
+    width : 960px; /* 크기는 12로 나누어 떨어지는 값 */
+    margin: 0px auto; /* 위/아래는 0, 왼쪽과 오른쪽 여백을 같게 하고 가운데*/
+}
+ul, li{
+   
+    list-style: none; /* 목록의 기호*/
+}
+a{
+    text-decoration: none;
+    color:  black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+img{
+  
+    border: none;
+}
